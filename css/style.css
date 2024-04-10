@@ -25,7 +25,8 @@ nav{
 
 
 footer{
-    background-color: rgb(134, 134, 134);
+    background-color: #23272a;
+    padding: 3rem 6rem;
 }
 
 button{
@@ -226,7 +227,7 @@ main p {
 }
 
 .celeste {
-    background-color: #7289da;
+    background-color: #7188d9;
 }
 
 main button {
@@ -236,4 +237,50 @@ main button {
 
 .contenitore-sezione-bottoni {
     padding-bottom: 6rem;
+}
+
+.scelta-lingua {
+    display: flex;
+}
+
+footer img {
+    width: 35px;
+    height: 15px;
+}
+
+form {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+div.scelta-lingua  * {
+    padding-right: .6rem;
+}
+
+#scelta {
+    background-color: #23272a;
+    border: transparent;
+    padding: 0;
+    color: white;
+}
+
+footer h2 {
+    font-size: 1.8rem;
+}
+
+.testo-viola {
+    color: #7188d9;
+}
+
+h2.testo-viola {
+    margin-bottom: 1rem;
+}
+
+i {
+    padding:.7rem 1.2rem 0 0;
+    font-size: 1.3em;
+}
+
+footer li {
+    padding-bottom: .5rem;
 }
