@@ -144,7 +144,7 @@ main  h1 {
     display: flex;
     flex-wrap: wrap;
 
-    border-bottom: 1px solid white;
+    border-bottom: 1px solid #7188d9;
 }
 .social{
     width: 19%;
@@ -282,5 +282,13 @@ i {
 }
 
 footer li {
-    padding-bottom: .5rem;
+    padding-bottom: .8rem;
+}
+
+footer a {
+    font-size: .8em;
+}
+
+.margin-left{
+    margin-left: 4rem;
 }
