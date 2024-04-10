@@ -111,9 +111,15 @@ main > div   {
     padding: 1rem 0;
 }
 
+header button {
+    margin-left: 1em;
+    font-size: 1em;
+}
+
 main  h1 {
     background-image: url(../img/stars.svg);
     background-size: contain;
+    background-repeat: no-repeat;
 
     padding: 1em 2em;
     font-size: 1.8rem;
@@ -130,7 +136,7 @@ main  h1 {
 
 .contenitore-sezione-verticale *,
 .contenitore-sezione-bottoni *:not(h1) {
-    padding: .4rem;
+    padding: .6rem;
 }
 
 .main-footer{
@@ -205,4 +211,29 @@ main p {
 
 #foto-ridimensionata {
     width: 550px;
+}
+
+.nero {
+    background-color: #23272a;
+}
+
+.bianco {
+    background-color: white;
+}
+
+.testo-bianco{
+    color: white;
+}
+
+.celeste {
+    background-color: #7289da;
+}
+
+main button {
+    font-size: 1.2em;
+    padding: .4em .8em;
+}
+
+.contenitore-sezione-bottoni {
+    padding-bottom: 6rem;
 }
